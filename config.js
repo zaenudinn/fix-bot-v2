@@ -7,9 +7,9 @@ import moment from 'moment-timezone'
 import { group } from 'console'
 
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
+let wibh = moment.tz('Asia/LOMBOK').format('HH')
+    let wibm = moment.tz('Asia/LOMBOK').format('mm')
+    let wibs = moment.tz('Asia/LOMBOK').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
@@ -37,19 +37,19 @@ global.sdc = '-' //discord
 global.snh = 'https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow' // my youtube channel
 
 /*============== PAYMENT ==============*/
-global.pdana = '08XXXXXXXXXX' //dana
-global.povo = '08XXXXXXXXXX' //ovo
-global.pgopay = '08XXXXXXXXXX' //gopay
-global.plinkaja = '08XXXXXXXXXX' //link aja
-global.ppulsa = '08XXXXXXXXXX' //telkomsel
-global.ppulsa2 = '08XXXXXXXXXX' // kalau ada kartu lain isi aja
-global.psaweria = 'https://saweria.com/mrw4h1d'
+global.pdana = '083143155277' //dana
+global.povo = '083143155277' //ovo
+global.pgopay = '083143155277' //gopay
+global.plinkaja = '083143155277' //link aja
+global.ppulsa = '083143155277' //telkomsel
+global.ppulsa2 = '083143155277' // kalau ada kartu lain isi aja
+global.psaweria = 'sawer duluu we plit amat'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '628XXXXXXXXXX'
-global.nomorown = '628XXXXXXXXXX'
-global.namebot = 'WH-MODS-BOT-V1'
-global.nameown = 'WH MODS DEV'
+global.nomorbot = '6283835317555'
+global.nomorown = '6283143155277'
+global.namebot = 'SAN_BITZ'
+global.nameown = 'SANBOTZ¢'
 
 /*============== APIKEY SIMPEL ==============*/
 global.zenzkey = 'b8040941f7'
@@ -58,10 +58,10 @@ global.lolkey = '8e66d0934cf741bfd2182c16' // PUNYA WAHID 357d3c85079c4e0818731e
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['628XXXXXXXXXX', 'WH MODS DEV', true],
-  ['-', 'isi_kalau_ada', true],
-  ['-', 'isi_kalau_ada', true],
-  ['-', 'isi_kalau_ada', true] //Ganti jd nomormu sama Namamu
+  ['6283143155277', 'SANBOTZZ', true],
+  ['-', 'jangan lupa sv admin', true],
+  ['-', 'jangan lupa sv admin', true],
+  ['-', 'jangan lupa sv admin', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
